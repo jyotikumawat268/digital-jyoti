@@ -1,231 +1,338 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Graphic Design | Pixel Jyoti</title>
+<title>Graphic Design Tutorials & Creative Learning | Pixel Jyoti</title>
 
-<meta name="description" content="Learn graphic design, logo design, branding, Canva, Photoshop, Illustrator, typography, and creative design skills with Pixel Jyoti.">
+<meta name="description" content="Learn graphic design, logo design, branding, Canva, Photoshop, Illustrator, and creative design skills with Pixel Jyoti tutorials and resources.">
 
-<meta name="keywords" content="Graphic Design, Logo Design, Branding, Canva Tutorials, Photoshop Tutorials, Illustrator Tutorials, Creative Design">
+<meta name="keywords" content="Graphic Design, Graphic Design Tutorials, Logo Design, Branding Design, Canva Design, Photoshop Tutorials, Illustrator Tutorials, Pixel Jyoti">
+
+<meta name="robots" content="index,follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-    background:#0f172a;
-    color:white;
-    line-height:1.6;
+background:#0f172a;
+color:white;
+line-height:1.7;
 }
 
 header{
-    background:#111827;
-    padding:20px;
-    text-align:center;
-}
-
-header h1{
-    color:#fbbf24;
-}
-
-.hero{
-    text-align:center;
-    padding:80px 20px;
-    background:linear-gradient(135deg,#4f46e5,#ec4899);
-}
-
-.hero h2{
-    font-size:50px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    max-width:700px;
-    margin:auto;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:white;
-    color:#4f46e5;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
+position:fixed;
+top:0;
+width:100%;
+background:rgba(15,23,42,.95);
+backdrop-filter:blur(10px);
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,.1);
 }
 
 .container{
-    width:90%;
-    max-width:1100px;
-    margin:auto;
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+background:linear-gradient(90deg,#f59e0b,#ec4899);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#f59e0b,#ec4899,#8b5cf6);
+}
+
+.hero h1{
+font-size:68px;
+margin-bottom:20px;
+font-weight:800;
+}
+
+.hero p{
+max-width:850px;
+margin:auto;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:white;
+color:#ec4899;
+font-weight:700;
+text-decoration:none;
+border-radius:50px;
 }
 
 .section{
-    padding:60px 0;
+padding:100px 0;
 }
 
-.section h2{
-    text-align:center;
-    margin-bottom:20px;
-    color:#fbbf24;
+.title{
+text-align:center;
+font-size:42px;
+margin-bottom:20px;
+}
+
+.subtitle{
+text-align:center;
+max-width:850px;
+margin:auto;
+margin-bottom:60px;
+color:#cbd5e1;
 }
 
 .cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-    margin-top:30px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
 }
 
 .card{
-    background:#1e293b;
-    padding:25px;
-    border-radius:10px;
+background:#1e293b;
+padding:30px;
+border-radius:20px;
 }
 
 .card h3{
-    color:#22d3ee;
-    margin-bottom:10px;
+color:#fbbf24;
+margin-bottom:15px;
+}
+
+.about{
+background:#111827;
+}
+
+.about-box{
+background:linear-gradient(135deg,#f59e0b,#ec4899);
+padding:50px;
+border-radius:25px;
+text-align:center;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.feature{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.feature h3{
+color:#fbbf24;
 }
 
 footer{
-    background:#020617;
-    text-align:center;
-    padding:20px;
+background:#020617;
+padding:30px;
+text-align:center;
+color:#cbd5e1;
 }
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Pixel Jyoti</h1>
+
+<div class="container">
+
+<nav>
+
+<div class="logo">Pixel Jyoti</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="graphicdesign.html">Graphic Design</a></li>
+<li><a href="canva.html">Canva</a></li>
+<li><a href="photoshop.html">Photoshop</a></li>
+<li><a href="branding.html">Branding</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+</div>
+
 </header>
 
 <section class="hero">
-    <h2>Learn Graphic Design</h2>
-    <p>
-        Master graphic design, branding, logo design, Canva, Photoshop, Illustrator,
-        typography, and creative skills with easy-to-follow tutorials.
-    </p>
 
-    <a href="#skills" class="btn">Start Learning</a>
-</section>
-
-<section class="section">
 <div class="container">
 
-<h2>What is Graphic Design?</h2>
+<h1>Learn Graphic Design Skills</h1>
 
 <p>
-Graphic Design is the art of creating visual content to communicate ideas and messages.
-It combines colors, typography, images, and layouts to create attractive designs for
-brands, websites, advertisements, social media, and marketing materials.
+Master graphic design and learn logo design, branding, Canva, Photoshop, Illustrator, visual communication, and creative design techniques.
 </p>
 
+<a href="#learn" class="btn">Start Learning</a>
+
 </div>
+
 </section>
 
-<section class="section" id="skills">
+<section class="section" id="learn">
+
 <div class="container">
 
-<h2>Graphic Design Skills</h2>
+<h2 class="title">What You Can Learn in Graphic Design</h2>
+
+<p class="subtitle">
+Build professional graphic design skills and create stunning visual content for digital and print media.
+</p>
 
 <div class="cards">
 
 <div class="card">
 <h3>Logo Design</h3>
-<p>Create unique and professional logos for businesses and brands.</p>
+<p>Create memorable logos and visual identities for brands and businesses.</p>
 </div>
 
 <div class="card">
-<h3>Branding</h3>
-<p>Build strong visual identities using colors, typography, and design systems.</p>
+<h3>Branding Design</h3>
+<p>Learn brand colors, typography, and complete visual identity systems.</p>
 </div>
 
 <div class="card">
 <h3>Canva Design</h3>
-<p>Design social media posts, banners, and marketing materials quickly.</p>
+<p>Create social media posts, banners, presentations, and marketing graphics.</p>
 </div>
 
 <div class="card">
-<h3>Photoshop</h3>
-<p>Edit photos, create graphics, and produce professional visual content.</p>
+<h3>Photoshop Editing</h3>
+<p>Master image editing, photo retouching, and creative visual effects.</p>
 </div>
 
 <div class="card">
-<h3>Illustrator</h3>
-<p>Create vector graphics, icons, illustrations, and scalable artwork.</p>
+<h3>Illustrator Design</h3>
+<p>Create vector graphics, illustrations, icons, and scalable artwork.</p>
 </div>
 
 <div class="card">
-<h3>Typography</h3>
-<p>Learn font selection, hierarchy, and visual communication principles.</p>
+<h3>UI Design Basics</h3>
+<p>Understand layouts, design systems, and user interface principles.</p>
 </div>
 
 </div>
 
 </div>
+
 </section>
 
-<section class="section">
+<section class="section about">
+
 <div class="container">
 
-<h2>Popular Design Tools</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Canva</h3>
-<p>Beginner-friendly graphic design platform.</p>
-</div>
-
-<div class="card">
-<h3>Adobe Photoshop</h3>
-<p>Industry-standard photo editing software.</p>
-</div>
-
-<div class="card">
-<h3>Adobe Illustrator</h3>
-<p>Professional vector design software.</p>
-</div>
-
-<div class="card">
-<h3>Figma</h3>
-<p>Popular UI and collaborative design tool.</p>
-</div>
-
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="container">
+<div class="about-box">
 
 <h2>Why Learn Graphic Design?</h2>
 
 <p>
-Graphic Design helps improve creativity, communication skills, and problem-solving abilities.
-It opens career opportunities in branding, advertising, digital marketing, UI design,
-freelancing, and content creation.
+Graphic design is an essential skill for marketers, content creators, freelancers, and businesses. It helps communicate ideas visually and build strong brand identities.
 </p>
 
 </div>
+
+<div class="features">
+
+<div class="feature">
+<h3>Creative Skills</h3>
+<p>Develop professional design thinking and creativity.</p>
+</div>
+
+<div class="feature">
+<h3>Career Opportunities</h3>
+<p>Work in branding, advertising, social media, and design agencies.</p>
+</div>
+
+<div class="feature">
+<h3>Portfolio Building</h3>
+<p>Create impressive projects to showcase your design skills.</p>
+</div>
+
+<div class="feature">
+<h3>Industry Tools</h3>
+<p>Learn Canva, Photoshop, Illustrator, and modern design software.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <footer>
-<p>© 2026 Pixel Jyoti | Design • Create • Inspire</p>
+
+<p>© 2026 Pixel Jyoti | Graphic Design Tutorials & Creative Learning</p>
+
 </footer>
 
 </body>
 </html>
-```
