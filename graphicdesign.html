@@ -1,110 +1,381 @@
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Graphic Design | Pixel Jyoti</title>
+
+<meta name="description" content="Learn graphic design, logo design, branding, Canva, Photoshop, Illustrator, typography, and creative design skills with Pixel Jyoti.">
+
+<meta name="keywords" content="Graphic Design, Logo Design, Branding, Canva Tutorials, Photoshop Tutorials, Illustrator Tutorials, UI Design, Creative Design">
+
+<meta name="robots" content="index,follow">
+<meta name="author" content="Pixel Jyoti">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:#ffffff;
+line-height:1.8;
+}
+
+header{
+position:sticky;
+top:0;
+background:#111827;
+padding:20px 0;
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+background:linear-gradient(90deg,#f59e0b,#ec4899);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero{
+background:linear-gradient(135deg,#4f46e5,#7c3aed,#ec4899);
+padding:120px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:65px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:850px;
+margin:auto;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#fff;
+color:#4f46e5;
+text-decoration:none;
+font-weight:700;
+border-radius:50px;
+}
+
+.section{
+padding:90px 0;
+}
+
+.section-title{
+font-size:42px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.section-text{
+max-width:900px;
+margin:auto;
+text-align:center;
+color:#cbd5e1;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#fbbf24;
+margin-bottom:15px;
+}
+
+.tools{
+background:#111827;
+}
+
+.tool-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.tool{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.tool h3{
+color:#22d3ee;
+}
+
+.faq-item{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.faq-item h3{
+color:#fbbf24;
+margin-bottom:10px;
+}
+
+.cta{
+padding:120px 20px;
+text-align:center;
+background:linear-gradient(135deg,#06b6d4,#8b5cf6,#ec4899);
+}
+
+.cta h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+footer{
+background:#020617;
+padding:30px;
+text-align:center;
+color:#cbd5e1;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<div class="logo">Pixel Jyoti</div>
+</div>
+</header>
+
 <section class="hero">
-    <div class="container">
-        <h1>Learn Graphic Design & Creative Skills</h1>
-        <p>
-            Explore graphic design tutorials, logo design, branding, Canva,
-            Photoshop, Illustrator, and creative design techniques with Pixel Jyoti.
-        </p>
-        <a href="#learn" class="btn">Start Learning</a>
-    </div>
+<div class="container">
+
+<h1>Graphic Design</h1>
+
+<p>
+Learn graphic design and creative skills through practical tutorials, design principles, branding techniques, and modern design tools.
+</p>
+
+<a href="#learn" class="btn">Start Learning</a>
+
+</div>
 </section>
 
-<section id="learn" class="section">
-    <div class="container">
+<section class="section" id="learn">
+<div class="container">
 
-        <h2>What is Graphic Design?</h2>
+<h2 class="section-title">What is Graphic Design?</h2>
 
-        <p>
-            Graphic Design is the art of creating visual content to communicate
-            ideas, messages, and brand identity. Designers use typography,
-            colors, images, and layouts to create logos, social media posts,
-            advertisements, websites, and marketing materials.
-        </p>
+<p class="section-text">
+Graphic Design is the art of visual communication. It combines creativity, typography, color theory, imagery, and layout design to create meaningful visual content. Graphic designers work on logos, advertisements, websites, social media graphics, packaging, and branding materials that help businesses communicate effectively with their audience.
+</p>
 
-        <h2>Graphic Design Skills You Can Learn</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Logo Design</h3>
-                <p>Create memorable logos and brand identities.</p>
-            </div>
-
-            <div class="card">
-                <h3>Branding</h3>
-                <p>Learn visual identity, colors, and brand strategy.</p>
-            </div>
-
-            <div class="card">
-                <h3>Canva Design</h3>
-                <p>Create social media graphics and marketing creatives.</p>
-            </div>
-
-            <div class="card">
-                <h3>Photoshop Editing</h3>
-                <p>Edit photos and create professional visual designs.</p>
-            </div>
-
-            <div class="card">
-                <h3>Illustrator</h3>
-                <p>Design vector graphics, icons, and illustrations.</p>
-            </div>
-
-            <div class="card">
-                <h3>UI Design</h3>
-                <p>Design user-friendly interfaces and layouts.</p>
-            </div>
-
-        </div>
-
-    </div>
+</div>
 </section>
 
 <section class="section">
-    <div class="container">
+<div class="container">
 
-        <h2>Popular Graphic Design Tools</h2>
+<h2 class="section-title">Essential Graphic Design Skills</h2>
 
-        <ul>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Canva</li>
-            <li>Figma</li>
-            <li>Adobe InDesign</li>
-        </ul>
+<div class="cards">
 
-    </div>
+<div class="card">
+<h3>Logo Design</h3>
+<p>Create unique logos that represent brands and build recognition.</p>
+</div>
+
+<div class="card">
+<h3>Branding Design</h3>
+<p>Learn how colors, typography, and visual identity shape a brand.</p>
+</div>
+
+<div class="card">
+<h3>Typography</h3>
+<p>Understand font selection, readability, hierarchy, and composition.</p>
+</div>
+
+<div class="card">
+<h3>Color Theory</h3>
+<p>Use color combinations effectively to create attractive designs.</p>
+</div>
+
+<div class="card">
+<h3>Layout Design</h3>
+<p>Create balanced and visually appealing compositions for print and digital media.</p>
+</div>
+
+<div class="card">
+<h3>Visual Communication</h3>
+<p>Deliver messages clearly through images, icons, graphics, and layouts.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section tools">
+<div class="container">
+
+<h2 class="section-title">Popular Graphic Design Tools</h2>
+
+<p class="section-text">
+Modern graphic designers use industry-standard tools to create professional designs and visual content.
+</p>
+
+<div class="tool-grid">
+
+<div class="tool">
+<h3>Canva</h3>
+<p>Create graphics, presentations, and social media posts.</p>
+</div>
+
+<div class="tool">
+<h3>Adobe Photoshop</h3>
+<p>Edit photos and create advanced digital artwork.</p>
+</div>
+
+<div class="tool">
+<h3>Adobe Illustrator</h3>
+<p>Design vector graphics, logos, and illustrations.</p>
+</div>
+
+<div class="tool">
+<h3>Figma</h3>
+<p>Create UI designs and collaborate on creative projects.</p>
+</div>
+
+</div>
+
+</div>
 </section>
 
 <section class="section">
-    <div class="container">
+<div class="container">
 
-        <h2>Benefits of Learning Graphic Design</h2>
+<h2 class="section-title">Benefits of Learning Graphic Design</h2>
 
-        <p>
-            Graphic design helps you build creative skills, create professional
-            branding materials, improve visual communication, and open career
-            opportunities in marketing, advertising, freelancing, and digital media.
-        </p>
+<p class="section-text">
+Graphic design develops creativity, problem-solving abilities, and visual communication skills. It creates opportunities in digital marketing, branding, advertising, web design, UI design, publishing, and freelance careers. Strong design skills can help professionals stand out in today's digital world.
+</p>
 
-    </div>
+</div>
 </section>
 
 <section class="section">
-    <div class="container">
+<div class="container">
 
-        <h2>Frequently Asked Questions</h2>
+<h2 class="section-title">Career Opportunities in Graphic Design</h2>
 
-        <h3>Can beginners learn graphic design?</h3>
-        <p>Yes, beginners can start with Canva and basic design principles.</p>
+<div class="cards">
 
-        <h3>Which software is best for graphic design?</h3>
-        <p>Photoshop, Illustrator, Canva, and Figma are popular choices.</p>
+<div class="card">
+<h3>Graphic Designer</h3>
+<p>Create marketing materials, branding assets, and visual content.</p>
+</div>
 
-        <h3>Is graphic design a good career?</h3>
-        <p>Graphic design offers opportunities in branding, marketing, UI design, and freelancing.</p>
+<div class="card">
+<h3>UI Designer</h3>
+<p>Design user-friendly interfaces for websites and applications.</p>
+</div>
 
-    </div>
+<div class="card">
+<h3>Brand Designer</h3>
+<p>Build visual identities and branding systems for businesses.</p>
+</div>
+
+<div class="card">
+<h3>Freelance Designer</h3>
+<p>Work independently on design projects for clients worldwide.</p>
+</div>
+
+</div>
+
+</div>
 </section>
+
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What is Graphic Design used for?</h3>
+<p>Graphic design is used for branding, advertising, websites, social media, packaging, and visual communication.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can beginners learn Graphic Design?</h3>
+<p>Yes, beginners can start with basic design principles and tools like Canva before moving to advanced software.</p>
+</div>
+
+<div class="faq-item">
+<h3>Which software is commonly used?</h3>
+<p>Popular tools include Canva, Adobe Photoshop, Adobe Illustrator, Figma, and InDesign.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is Graphic Design a good career?</h3>
+<p>Graphic design offers diverse opportunities across marketing, branding, advertising, web design, and freelancing.</p>
+</div>
+
+</div>
+</section>
+
+<section class="cta">
+
+<h2>Start Your Creative Journey Today</h2>
+
+<p>
+Explore graphic design concepts, learn professional tools, and build practical creative skills with Pixel Jyoti.
+</p>
+
+<a href="#" class="btn">Explore More</a>
+
+</section>
+
+<footer>
+<p>© 2026 Pixel Jyoti | Design • Create • Inspire</p>
+</footer>
+
+</body>
+</html>
 ```
